@@ -1,26 +1,8 @@
-// Color Palette
-
-// rgba(0,0,0,.9) - deep black
-// rgba(0,0,0,.85) - black
-// rgba(0,0,0,.8) - print black
-// rgba(0,0,0,.75) - light black
-// rgba(0,0,0,.6) - muted black
-// #ba3925 - orange
-// #7a2518 - dark orange
-// #3a120c - maroon
-// #2561ba - blue
-// #f8f8f7 - warm beige
-// #f7f7f8 - cool beige
-// #f7f8f7 - tinted beige
-// #ddddd8 - light gray
-// #d8d8d8 - lighter gray
-// #efefed - very light gray
-
 // Body (IMPORTANT $body-* variables must be defined above the defaults import)
 
 $body-bg: white;
-$body-font-color: rgba(0,0,0,0.8);
-$body-font-family: "Rubik", serif;
+$body-font-color: #36474E;
+$body-font-family: "Lato", serif;
 
 @import "defaults";
 
@@ -29,27 +11,40 @@ $body-font-family: "Rubik", serif;
 $primary-color: darken(#2561ba, 5%);
 $alert-color: lighten(#3a120c, 15%); // $code-color is 15% darker than $alert-color, so we lighten here by 15%
 $global-radius: 4px;
-$panel-bg: #2c3b41;
-$panel-font-color: #8aa4af;
+$panel-bg: #F8F9FC;
+$panel-font-color: #36474E;
 
 #toctitle {
-  color: white !important;
+  color: #36474E !important;
 }
 
 #toc a {
-  color: #8aa4af !important;
+  color: #36474E !important;
 }
 
+#toc a:hover {
+  color: #13BEB7 !important;
+}
+
+#toctitle:before {
+  display: block;
+  content: ' ';
+  background-image: url("images/rudder.svg");
+  background-size: 12em 3em;
+  height: 3em;
+  width: 12em;
+  margin-bottom: 1em;
+}
 
 // Headings
 
-$header-font-family: "Rubik", sans-serif;
-$header-font-weight: 300;
-$header-font-color: #f08004;
+$header-font-family: "Lato", sans-serif;
+$header-font-weight: 700;
+$header-font-color: #36474E;
 $header-line-height: 1.2;
 $header-top-margin: 1em;
 $header-word-spacing: -0.05em;
-$title-font-color: rgba(0,0,0,0.85);
+$title-font-color: #36474E;
 $title-font-weight: $header-font-weight;
 $subheader-font-family: $body-font-family;
 $subheader-font-size: 1rem;

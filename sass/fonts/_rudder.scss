@@ -1,3 +1,43 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
-@import url(https://fonts.googleapis.com/css?Droid+Sans+Mono:400,700);
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local("Lato Regular"),
+    local("Lato-Regular"),
+    url(../../_/font/lato-latin-400.woff2) format("woff2")
+    url(../../_/fontlato-latin-400.woff) format("woff");
+}
 
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 400;
+  src:
+    local("Lato Regular"),
+    local("Lato-Regular"),
+    url(../../_/font/lato-latin-400italic.woff2) format("woff2")
+    url(../../_/font/lato-latin-400italic.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local("Lato Bold"),
+    local("Lato-Bold"),
+    url(../../_/font/lato-latin-700.woff2) format("woff2")
+    url(../../_/font/lato-latin-700.woff) format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+  font-style: italic;
+  font-weight: 700;
+  src:
+    local("Lato Bold"),
+    local("Lato-Bold"),
+    url(../../_/font/lato-latin-700italic.woff2) format("woff2")
+    url(../../_/font/lato-latin-700italic.woff) format("woff");
+}
